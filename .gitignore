@@ -1,1 +1,31 @@
-.vercel
+# Environment files
+.env
+*.env
+**/.env
+**/*.env
+.env.local
+.env.production
+.env.development
+
+# Vercel
+.vercel/
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Ignore Vite cache
+vite.config.js.timestamp*
+.vite/
+
+# Ignore Next.js build (if any future)
+.next/
+out/
+
+# macOS system files (safe)
+.DS_Store
