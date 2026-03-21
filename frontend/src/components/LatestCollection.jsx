@@ -16,7 +16,7 @@ const LatestCollection = () => {
         <div className='text-center py-8 text-3xl'>
             <Title text1={'LATEST'} text2={'COLLECTIONS'}/>
             <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis perspiciatis earum delectus officia? Suscipit asperiores autem dolores tempore itaque praesentium fuga ut numquam, a saepe laboriosam deserunt doloribus repellat!</p>
+            Shop Our Latest Collections. Made with Love ♥ By Shreeti Bajracharya.</p>
         </div>
 
         {/* rendering products */}

@@ -1,10 +1,10 @@
-import { currency } from "../../admin/src/App.jsx";
+// import { currency } from "../../admin/src/App.jsx";
 import orderModel from "../models/orderModel.js";
 import userModel from "../models/userModel.js";
 import Stripe from 'stripe'
 
-// const currency='usd'
-// const deliveryCharge=10
+const currency='usd'
+const deliveryCharge=10
 
 // gateway initialize
 // const stripe=new Stripe(process.env.STRIPE_SECRET_KEY)
