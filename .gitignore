@@ -1,0 +1,19 @@
+# Create .gitignore with all entries
+@"
+# Environment variables
+.env
+admin/.env
+backend/.env
+frontend/.env
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+"@ | Out-File -Encoding utf8 .gitignore
+
