@@ -1,4 +1,4 @@
-# Create .gitignore with all entries
+# Create .gitignore at project root (D:\Ecom_Web\.gitignore)
 @"
 # Environment variables
 .env
@@ -16,4 +16,3 @@ npm-debug.log*
 # OS
 .DS_Store
 "@ | Out-File -Encoding utf8 .gitignore
-
